@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import PropertyCard from "./components/PropertyCard";
-import FilterBar from "./components/FilterBar";
-import WalletBalance from "./components/walletBalance";
+import PropertyCard from "./components/PropertyCard.jsx";
+import FilterBar from "./components/FilterBar.jsx";
+import WalletBalance from "./components/walletBalance.jsx";
 
 function App() {
   const [properties, setProperties] = useState([]);

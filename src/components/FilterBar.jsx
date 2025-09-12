@@ -1,3 +1,4 @@
+
 function FilterBar({ location, setLocation, sortOrder, setSortOrder }) {
   return (
     <div className="flex flex-col sm:flex-row gap-4 mb-6 w-full">
