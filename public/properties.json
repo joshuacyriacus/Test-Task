@@ -1,0 +1,15 @@
+
+
+[
+  { "id": 1, "title": "Luxury Apartment", "price": 250000, "location": "Lagos" },
+  { "id": 2, "title": "Beach House", "price": 500000, "location": "Abuja" },
+  { "id": 3, "title": "Studio Flat", "price": 150000, "location": "Port Harcourt" },
+  { "id": 4, "title": "Modern Duplex", "price": 350000, "location": "Enugu" },
+  { "id": 5, "title": "City Bungalow", "price": 200000, "location": "Ibadan" },
+  { "id": 6, "title": "Penthouse Suite", "price": 800000, "location": "Lagos" },
+  { "id": 7, "title": "Countryside Villa", "price": 400000, "location": "Jos" },
+  { "id": 8, "title": "Office Space", "price": 300000, "location": "Abuja" },
+  { "id": 9, "title": "Student Hostel", "price": 100000, "location": "Benin City" },
+  { "id": 10, "title": "Beach Resort", "price": 1200000, "location": "Calabar" }
+]
+
