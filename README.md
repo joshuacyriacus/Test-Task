@@ -1,12 +1,28 @@
-# React + Vite
+#   Property Listings (with MetaMask Integration)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **real estate property listing web app** built with **React + Vite + TailwindCSS**.  
+It allows users to:
+- Browse properties
+- Filter by **location**
+- Sort by **price**
+- **Connect MetaMask** to simulate buying a property with Ethereum
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
+-  **Filter properties by location** (Lagos, Abuja, Port Harcourt)  
+-  **Sort properties by price** (Low → High, High → Low)  
+-  *Property cards** showing title, price, and location  
+-  **MetaMask integration** using [ethers.js](https://docs.ethers.org/)  
+-  Display **wallet balance** after connecting  
+-  Clean, responsive UI with **TailwindCSS** and [Lucide Icons](https://lucide.dev/)  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- [React (Vite)](https://vitejs.dev/) 
+- [TailwindCSS](https://tailwindcss.com/) 
+- [Lucide-React](https://www.npmjs.com/package/lucide-react) 
+- [ethers.js](https://docs.ethers.org/) 
+- [MetaMask](https://metamask.io/) 
+
+
+## 📂 Project Structure
