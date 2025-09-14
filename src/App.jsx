@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Property from "./components/PropertyCard.jsx";
+import Property from "./components/propertyC.jsx";
 import FilterBar from "./components/FilterBar.jsx";
 import WalletBalance from "./components/walletBalance.jsx";
 
