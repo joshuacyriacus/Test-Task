@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import PropertyCard from "./components/PropertyCard.jsx";
+import Property from "./components/PropertyCard.jsx";
 import FilterBar from "./components/FilterBar.jsx";
 import WalletBalance from "./components/walletBalance.jsx";
 
@@ -52,7 +52,7 @@ function App() {
       {/* Responsive Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {filtered.map((p) => (
-          <PropertyCard
+          <Property
             key={p.id}
             title={p.title}
             price={p.price}

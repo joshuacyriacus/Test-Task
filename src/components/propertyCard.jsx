@@ -2,7 +2,7 @@ import { useState } from "react";
 import { MapPin, Home } from "lucide-react";
 import ConfirmAndPay from "./ConfirmAndPay";
 
-function PropertyCard({ title, price, location, image }) {
+function Property({ title, price, location, image }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -51,4 +51,4 @@ function PropertyCard({ title, price, location, image }) {
   );
 }
 
-export default PropertyCard;
+export default Property;
