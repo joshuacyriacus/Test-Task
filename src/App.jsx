@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import PropertyCard from "./components/propertyCard.jsx";
+import PropertyCard from "./components/PropertyCard.jsx";
 import FilterBar from "./components/FilterBar.jsx";
 import WalletBalance from "./components/walletBalance.jsx";
 
@@ -11,11 +11,11 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("/properties.json");
+        const res = await fetch("/properties.json"); // mock API / local file
         const data = await res.json();
         setProperties(data);
       } catch (error) {
-        console.error("Error fetching properties:", error);
+        console.error(" Error fetching properties:", error);
       }
     };
     fetchData();
@@ -30,7 +30,7 @@ function App() {
   );
 
   return (
-    <div className="p-4 sm:p-6 lg:p-10">
+    <div className="p-4 sm:p-6 lg:p-10 min-h-screen bg-gray-50">
       {/* Header with wallet connect on right */}
       <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-6">
         <h1 className="text-2xl lg:text-3xl font-bold text-green-600 text-center sm:text-left">
